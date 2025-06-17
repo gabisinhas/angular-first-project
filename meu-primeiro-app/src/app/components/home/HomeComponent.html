@@ -1,0 +1,19 @@
+<h2>home works!</h2>
+<p>{{ name }}</p>
+<button [attr.aria-label]="atributo" (click)="submit()">Submeter</button>
+
+
+
+@if(deveMostrarTitulo){
+    <h1>Meu Titulo</h1>
+} @else {
+    <p>Meu Titulo</p>
+}
+
+<h1>Minha primeira lista de items!</h1>
+@for(item of listItems; track item){
+    <p>{{item}}</p>
+}
+
+
+<h1>{{minhaPropsDeFora}}</h1>
